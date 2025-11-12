@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Colecciones - MetaMapa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container py-4">
+        <h1 class="mb-4">Colecciones Disponibles</h1>
+        
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col" th:each="coleccion : ${colecciones}">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title" th:text="${coleccion.titulo}">Título de Colección</h5>
+                        <p class="card-text" th:text="${coleccion.descripcion}">Descripción...</p>
+                        <a href="#" class="btn btn-primary">Ver Hechos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
