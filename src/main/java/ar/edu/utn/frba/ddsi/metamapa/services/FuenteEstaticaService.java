@@ -1,6 +1,7 @@
 package ar.edu.utn.frba.ddsi.metamapa.services;
 
 import ar.edu.utn.frba.ddsi.metamapa.entities.Hecho;
+import com.opencsv.bean.CsvBindByName;
 import com.opencsv.bean.CsvToBeanBuilder;
 import org.springframework.stereotype.Service;
 import java.io.FileReader;
@@ -14,12 +15,23 @@ public class FuenteEstaticaService {
 
     // DTO interno simple solo para leer el CSV
     public static class HechoCsv {
+        @CsvBindByName(column = "Titulo")
         public String Titulo;
+        
+        @CsvBindByName(column = "Descripcion")
         public String Descripcion;
+        
+        @CsvBindByName(column = "Categoria")
         public String Categoria;
+        
+        @CsvBindByName(column = "Latitud")
         public Double Latitud;
+        
+        @CsvBindByName(column = "Longitud")
         public Double Longitud;
-        public String "Fecha del hecho"; // Ojo con el nombre de la columna
+        
+        @CsvBindByName(column = "Fecha del hecho")  // Mapea columna con espacios
+        public String fechaDelHecho;
     }
 
     public List<Hecho> getHechosFromCSV(String filePath) {
@@ -39,7 +51,7 @@ public class FuenteEstaticaService {
                 h.setCategoria(csv.Categoria);
                 h.setLatitud(csv.Latitud);
                 h.setLongitud(csv.Longitud);
-                h.setFechaAcontecimiento(LocalDate.parse(csv."Fecha del hecho", formatter));
+                h.setFechaAcontecimiento(LocalDate.parse(csv.fechaDelHecho, formatter));
                 h.setOrigen("CSV_INCENDIOS");
                 h.setEliminado(false);
                 h.setTieneConsenso(false); // Aún no consensuado

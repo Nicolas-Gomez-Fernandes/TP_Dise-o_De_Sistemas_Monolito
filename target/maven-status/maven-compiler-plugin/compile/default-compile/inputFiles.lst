@@ -1,0 +1,17 @@
+C:\Users\nicol\OneDrive\Escritorio\TP_Dise-o_De_Sistemas_Monolito\src\main\java\ar\edu\utn\frba\ddsi\metamapa\config\SecurityConfig.java
+C:\Users\nicol\OneDrive\Escritorio\TP_Dise-o_De_Sistemas_Monolito\src\main\java\ar\edu\utn\frba\ddsi\metamapa\controllers\AdminController.java
+C:\Users\nicol\OneDrive\Escritorio\TP_Dise-o_De_Sistemas_Monolito\src\main\java\ar\edu\utn\frba\ddsi\metamapa\controllers\ColeccionController.java
+C:\Users\nicol\OneDrive\Escritorio\TP_Dise-o_De_Sistemas_Monolito\src\main\java\ar\edu\utn\frba\ddsi\metamapa\controllers\LoginController.java
+C:\Users\nicol\OneDrive\Escritorio\TP_Dise-o_De_Sistemas_Monolito\src\main\java\ar\edu\utn\frba\ddsi\metamapa\entities\Coleccion.java
+C:\Users\nicol\OneDrive\Escritorio\TP_Dise-o_De_Sistemas_Monolito\src\main\java\ar\edu\utn\frba\ddsi\metamapa\entities\Hecho.java
+C:\Users\nicol\OneDrive\Escritorio\TP_Dise-o_De_Sistemas_Monolito\src\main\java\ar\edu\utn\frba\ddsi\metamapa\entities\SolicitudEliminacion.java
+C:\Users\nicol\OneDrive\Escritorio\TP_Dise-o_De_Sistemas_Monolito\src\main\java\ar\edu\utn\frba\ddsi\metamapa\entities\Usuario.java
+C:\Users\nicol\OneDrive\Escritorio\TP_Dise-o_De_Sistemas_Monolito\src\main\java\ar\edu\utn\frba\ddsi\metamapa\MetamapaMonolitoApplication.java
+C:\Users\nicol\OneDrive\Escritorio\TP_Dise-o_De_Sistemas_Monolito\src\main\java\ar\edu\utn\frba\ddsi\metamapa\repositories\ColeccionRepository.java
+C:\Users\nicol\OneDrive\Escritorio\TP_Dise-o_De_Sistemas_Monolito\src\main\java\ar\edu\utn\frba\ddsi\metamapa\repositories\HechoRepository.java
+C:\Users\nicol\OneDrive\Escritorio\TP_Dise-o_De_Sistemas_Monolito\src\main\java\ar\edu\utn\frba\ddsi\metamapa\repositories\SolicitudEliminacionRepository.java
+C:\Users\nicol\OneDrive\Escritorio\TP_Dise-o_De_Sistemas_Monolito\src\main\java\ar\edu\utn\frba\ddsi\metamapa\repositories\UsuarioRepository.java
+C:\Users\nicol\OneDrive\Escritorio\TP_Dise-o_De_Sistemas_Monolito\src\main\java\ar\edu\utn\frba\ddsi\metamapa\services\ColeccionService.java
+C:\Users\nicol\OneDrive\Escritorio\TP_Dise-o_De_Sistemas_Monolito\src\main\java\ar\edu\utn\frba\ddsi\metamapa\services\CustomUserDetailsService.java
+C:\Users\nicol\OneDrive\Escritorio\TP_Dise-o_De_Sistemas_Monolito\src\main\java\ar\edu\utn\frba\ddsi\metamapa\services\FuenteEstaticaService.java
+C:\Users\nicol\OneDrive\Escritorio\TP_Dise-o_De_Sistemas_Monolito\src\main\java\ar\edu\utn\frba\ddsi\metamapa\services\FuenteProxyService.java
